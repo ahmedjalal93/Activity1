@@ -2,17 +2,64 @@
 <html>
     <head>
         <title>My first activity</title>
+        <style>
+            h1{
+                background: #000;
+                color: #fff;
+                text-align: center;
+                padding: 5px;
+                margin:0;
+
+            }
+            .container{
+                background: #ddd;
+                padding:10px;
+                height: 300px;
+            }
+
+            img{
+                float: left;
+                margin-right: 15px;
+                font-size: 14px;
+            }
+
+            .left{
+                float:left;
+                width: 60%;
+            }
+
+            .right{
+                float:right;
+                width:40%;
+            }
+
+            h3{
+                margin:15px;
+            }
+
+            li{
+                margin:5px;
+            }
+        </style>
+
     </head>
     <body>
         <h1>My Bio</h1>
-        <h3>Ahmed Jalal </h3>
-        <img src="TomandJerryTitleCardc.jpg" width="200" height="200"/><br/>
-        <p>This is my bio. I'm a friend with Tom and Jerry</p><hr>
-        <h3>Contact info</h3>
-        <ul>
-            <li>My email here</li>
-            <li>My phone number here</li>
-            <li>My address here</li>
-        </ul>
+        <div class="container">
+            <div class="left">
+                <h3>Ahmed Jalal </h3>
+                <img src="TomandJerryTitleCardc.jpg" width="200" height="200"/>
+                <span>This is my bio. I'm a friend with Tom and Jerry. <br> Hello Tom and jery we want more text here</span>
+            </div>
+            
+            <div class="right"></div>
+                <h3>Contact info</h3>
+                <ul>
+                    <li>My email here</li>
+                    <li>My phone number here</li>
+                    <li>My address here</li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
